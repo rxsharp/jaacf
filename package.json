@@ -1,0 +1,32 @@
+{
+  "name": "zippy-courses-theme-child",
+  "version": "1.0.0",
+  "description": "Child theme for zippy courses",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ciampam9/portfoliodojo-theme.git"
+  },
+  "keywords": [
+    "wordpress",
+    "gulp",
+    "node",
+    "scss"
+  ],
+  "author": "Matthew Ciampa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciampam9/portfoliodojo-theme/issues"
+  },
+  "homepage": "https://github.com/ciampam9/portfoliodojo-theme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-insert": "^0.4.0"
+  }
+}
