@@ -13,7 +13,8 @@ Template Name: Homepage
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-						<div class="col-sm-8">
+						<div class="row">
+							<div class="col-sm-8">
 						
 							<header>
 								
@@ -23,16 +24,10 @@ Template Name: Homepage
 								?>
 								
 								<div class="img-border jumbotron">
+
 									<h1>JAACF</h1>
 								</div>
 
-							<!-- 	<div class="jumbotron" style="background-image: url('<?php echo $featured_src[0]; ?>'); background-repeat: no-repeat; background-position: 0 0;">
-					
-									<div class="page-header">
-										<h1><?php bloginfo('title'); ?><small><?php echo get_post_meta($post->ID, 'custom_tagline' , true);?></small></h1>
-									</div>				
-									
-								</div> -->
 							
 							</header>
 						
@@ -73,19 +68,10 @@ Template Name: Homepage
 							<p>Without you, it wouldn't be possible!</p>
 							<button class="btn btn-success">Find out more</button>
 						</div>
-						
-						<footer>
-			
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","wpbootstrap") . ': ', ', ', '</span>'); ?></p>
-							
-						</footer> <!-- end article footer -->
+						</div>
+						 <!-- end article footer -->
 					
 					</article> <!-- end article -->
-					
-					<?php 
-						// No comments on homepage
-						//comments_template();
-					?>
 					
 					<?php endwhile; ?>	
 					
@@ -98,15 +84,12 @@ Template Name: Homepage
 					    <section class="post_content">
 					    	<p><?php _e("Sorry, but the requested resource was not found on this site.", "wpbootstrap"); ?></p>
 					    </section>
-					    <footer>
-					    </footer>
 					</article>
 					
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
-    
-				<?php //get_sidebar(); // sidebar 1 ?>
+
     
 			</div> <!-- end #content -->
 
