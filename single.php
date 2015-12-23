@@ -33,7 +33,7 @@
 							// only show edit button if user has permission to edit posts
 							if( $user_level > 0 ) { 
 							?>
-							<a href="<?php echo get_edit_post_link(); ?>" class="btn btn-success edit-post"><i class="icon-pencil icon-white"></i> <?php _e("Edit post","wpbootstrap"); ?></a>
+							<a href="<?php echo get_edit_post_link(); ?>" class="btn btn-success edit-post"><i class="fa fa-pencil"></i> <?php _e("Edit post","wpbootstrap"); ?></a>
 							<?php } ?>
 							
 						</footer> <!-- end article footer -->

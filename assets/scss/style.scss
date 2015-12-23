@@ -3,9 +3,8 @@
 
 // -- VENDOR --
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
-@import "../../bower_components/font-awesome/scss/font-awesome";
 // -- VENDOR --
 
-
+@import "font-awesome/font-awesome";
 @import './utils/components';  
-@import './utils/globals';  
+@import './utils/globals';
